@@ -8,7 +8,7 @@ I incorporated the algorithm into my application to allow a universal input/inpu
  - Asks user what topic statement of a Yes or No choice for the application to predict if the user is going to say yes or no. For example:
    - Am I going to eat chinese food today when I am also craving other types of food?
  - Then application asks the user to state 5 statements related to the prediction choice that relates to their opinions that might relate to being more likely to say yes or no.
-  - # (This simulates how we as humans when we have a choice to make we might normally weight the options in our heads, for example:)
+  - # (This simulates how we as humans when we have a choice to make we might normally weigh the options in our heads, for example:)
    - Am I going to eat chinese food today when I am also craving other types of food? (This would be the main question of action to decide yes or no)
     - The 5 statements of human thinking:
      -  How long has it been since I have had chinese food?
