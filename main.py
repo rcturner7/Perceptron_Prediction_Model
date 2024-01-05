@@ -26,19 +26,31 @@ user_data_statements5 = input("State your fifth statement or question to rate ba
 # Threshold value
 threshold_value = 1.5
 
-# User rating each of their statements
+# True or false of the user's opinion to each statement - 0 being false, and 1 being true -- These are the node values:
+user_true_false_statement1 = int(input("Is your first statement True or False based on your feelings? "
+                                       "0 being false, and 1 being True.\n"))
+user_true_false_statement2 = int(input("Is your second statement True or False based on your feelings? "
+                                       "0 being false, and 1 being True.\n"))
+user_true_false_statement3 = int(input("Is your third statement True or False based on your feelings? "
+                                       "0 being false, and 1 being True.\n"))
+user_true_false_statement4 = int(input("Is your fourth statement True or False based on your feelings? "
+                                       "0 being false, and 1 being True.\n"))
+user_true_false_statement5 = int(input("Is your fifth statement True or False based on your feelings? "
+                                       "0 being false, and 1 being True.\n"))
+
+# User rating each of their statements node values -- These are the node weights:
 user_rating_statement1 = float(input("Rate your first statement from 0 to 1, for example: 0, 0.1, 0.2, etc.. to 1.\n"))
 user_rating_statement2 = float(input("Rate your second statement from 0 to 1.\n"))
 user_rating_statement3 = float(input("Rate your third statement from 0 to 1.\n"))
 user_rating_statement4 = float(input("Rate your fourth statement from 0 to 1.\n"))
 user_rating_statement5 = float(input("Rate your fifth statement from 0 to 1.\n"))
 
-# Multiplying rating inputs with the weights x1 * w1 = ?
-user_rating_calculation1 = user_rating_statement1 * 1
-user_rating_calculation2 = user_rating_statement2 * 0
-user_rating_calculation3 = user_rating_statement3 * 1
-user_rating_calculation4 = user_rating_statement4 * 0
-user_rating_calculation5 = user_rating_statement5 * 1
+# Multiplying rating inputs with the weights v1 * w1 = ?
+user_rating_calculation1 = user_true_false_statement1 * user_rating_statement1
+user_rating_calculation2 = user_true_false_statement2 * user_rating_statement2
+user_rating_calculation3 = user_true_false_statement3 * user_rating_statement3
+user_rating_calculation4 = user_true_false_statement4 * user_rating_statement4
+user_rating_calculation5 = user_true_false_statement5 * user_rating_statement5
 
 # Sum all the results
 sum_results = user_rating_calculation1 + user_rating_calculation2 + user_rating_calculation3 + \
