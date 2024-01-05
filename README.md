@@ -17,7 +17,7 @@ This application uses the Perceptron Algorithm from Frank Rosenblatt. Frank Rose
      -  Will I be dissatisfied?
   - The application sets a threshold ( the application is set at 1.5 for the threshold. )
   - Then Asks user to answer yes/no to each of the 5 statements with 0 being false, 1 being true. (These are called the values -- This is the first part of perceptron inputs also called nodes.)
-  - Then the application then asks the user to weigh with a rating from each of the 5 statements 0 - 1. For example: 0, 0.1, 0.2, 0.3, etc... (These are called weights -- This is the second part of the perceptron inputs, also called nodes.)
+  - Then the application then asks the user to weigh with a rating from each of the 5 node values from 0 or 1 with a rating from 0 - 1. For example: 0, 0.1, 0.2, 0.3, etc... (These are called weights -- This is the second part of the perceptron inputs, also called nodes.)
   - The application then multiplies the inputs value * weight = ?
   - Then adds the sum from all 5 of the statements related to the user's choice to make prediction.
   - Then if the value is greater than 1.5 then the algorithm will predict the user will choose yes to their decision -- or ---
