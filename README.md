@@ -1,6 +1,7 @@
 # Perceptron_Prediction_Model
 ## Introduction to Perceptron:
 This application uses the Perceptron Algorithm from Frank Rosenblatt. Frank Rosenblatt invented this program in 1957. He explained that perceptron could be similar to brain neurons. The Perceptron Algorithm is like a 1 layer neuron algorithm.
+I incorporated the algorithm into my application to allow a universal input/inputs from the user for the prediction model, using a 1 layer neural network. This is the framework from the Perceptron Algorithm.
 
 # Steps in Application:
  - Prints welcome statements and instruction statements naming the application NeuRyan.
